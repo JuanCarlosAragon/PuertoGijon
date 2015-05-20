@@ -39,9 +39,9 @@ public class Test
         puertoGijon.alquilar(cliente4, velero2, 10);
         puertoGijon.alquilar(cliente5, yate2, 3); 
         
-        puertoGijon.liquidarAmarre(0);
         puertoGijon.liquidarAmarre(1);
-        puertoGijon.liquidarAmarre(2);        
+        puertoGijon.liquidarAmarre(2);
+        puertoGijon.liquidarAmarre(3);        
         
         puertoGijon.mostrarEstado();            
     }

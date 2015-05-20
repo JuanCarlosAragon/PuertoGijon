@@ -26,7 +26,7 @@ public class Alquiler
      * @return el coste en euros
      */
    public float getCoste(){
-       return (numeroDeDias * barco.getEslora() * MULTIPLICADOR_ESLORA) + (ALQUILER_FIJO + barco.coeficienteBernua());
+       return (numeroDeDias * (barco.getEslora() * MULTIPLICADOR_ESLORA)) + (ALQUILER_FIJO * barco.coeficienteBernua());
    }
    
    @Override
